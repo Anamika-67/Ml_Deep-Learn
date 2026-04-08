@@ -1,10 +1,12 @@
-# Ml_Deep-Learn
-Sherlock Files is a deep learning project that reconstructs the correct chronological order of shuffled video frames. Using CNN for feature extraction and LSTM for temporal modeling, the system learns motion patterns and predicts frame rankings to restore the true sequence of events in videos.
+# ML-war
+MLWARE Sherlock Files is a deep learning project that reconstructs the correct chronological order of shuffled video frames. Using CNN for feature extraction and LSTM for temporal modeling, the system learns motion patterns and predicts frame rankings to restore the true sequence of events in videos.
 
-Sherlock Files
+
+
+MLWARE Sherlock Files
 Reconstructing the True Timeline of Motion using Deep Learning
 
-Sherlock Files is an AI-powered system designed to reconstruct the correct chronological order of shuffled video frames using computer vision and deep learning. The project analyzes motion dynamics and visual patterns in video frames to restore the original sequence of events.
+MLWARE Sherlock Files is an AI-powered system designed to reconstruct the correct chronological order of shuffled video frames using computer vision and deep learning. The project analyzes motion dynamics and visual patterns in video frames to restore the original sequence of events.
 
 The system mimics the reasoning of a forensic investigator by identifying temporal relationships between frames and learning how objects move according to physical laws.
 

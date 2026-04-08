@@ -1,0 +1,35 @@
+Full Project Folder Structure
+
+mlware_sherlock/
+│
+├── data/
+│   ├── train/
+│   │   ├── video_0.mp4
+│   │   ├── video_1.mp4
+│   │
+│   ├── test/
+│   │   ├── video_5000.mp4
+│   │
+│   └── train_labels.json
+│
+├── frames/
+│   ├── video_0/
+│   │   ├── frame_0.jpg
+│   │   ├── frame_1.jpg
+│   │
+│
+├── models/
+│   ├── cnn_encoder.py
+│   ├── temporal_model.py
+│
+├── utils/
+│   ├── extract_frames.py
+│   ├── preprocessing.py
+│   ├── dataset.py
+│
+├── train.py
+├── inference.py
+├── generate_submission.py
+│
+├── requirements.txt
+└── README.md

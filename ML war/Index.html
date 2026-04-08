@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MLWARE Sherlock Files</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>MLWARE Sherlock Files</h1>
+        <p>Reconstruct the Correct Frame Order</p>
+    </header>
+
+
+    <section class="upload-section">
+
+        <h2>Upload Video</h2>
+
+        <input type="file" id="videoUpload" accept="video/*">
+
+        <button onclick="uploadVideo()">Extract Frames</button>
+
+    </section>
+
+
+    <section>
+
+        <h2>Frame Preview</h2>
+
+        <div id="frameContainer" class="frame-grid"></div>
+
+    </section>
+
+
+    <section class="predict-section">
+
+        <button onclick="predictOrder()">Predict Frame Order</button>
+
+        <div id="predictionResult"></div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
