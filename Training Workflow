@@ -1,0 +1,19 @@
+Videos
+ ↓
+Extract Frames
+ ↓
+Preprocess Images
+ ↓
+CNN (ResNet)
+ ↓
+Feature Vector
+ ↓
+LSTM
+ ↓
+Frame Score Prediction
+ ↓
+Sort Scores
+ ↓
+Predicted Frame Order
+ ↓
+CSV Submission
